@@ -14,6 +14,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5a8c4f86b6.js" crossorigin="anonymous"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    backgroundImage: {
+                        'team-meet': "url('./images/team.png')"
+                    }
+                }
+            }
+        }
+    </script>
     <style>
         .font-lato {
             font-family: 'Lato', sans-serif;
@@ -164,6 +175,170 @@
                             <span style="--value:13;"></span>
                         </span>
                         sec
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ratings and card section starts here -->
+        <section class="grid justify-items-center">
+            <div class="grid grid-cols-1 lg:grid lg:grid-cols-4 md:grid md:grid-cols-2 gap-5 ">
+                <!-- card-01 -->
+                <div class="card w-80 bg-base-100 shadow-md my-8">
+                    <figure><img class="p-1" src="./images/fruit6.png" alt="Shoes" /></figure>
+                    <div class="card-body items-center ">
+                        <h2 class="card-title font-bold text-base">12.90$ - 18.85$</h2>
+                        <hr>
+                        <p class="text-gray-500 my-7">Apples</p>
+                        <div class="rating rating-lg rating-half">
+                            <input type="radio" name="rating-10" class="rating-hidden" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1"
+                                checked />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+                        </div>
+                        <p class="text-red-400 ">Details</p>
+                    </div>
+                </div>
+                <!-- card-02 -->
+                <div class="card w-80 bg-base-100 shadow-md my-8">
+                    <figure><img class="p-1" src="./images/fruit7.png" alt="Shoes" /></figure>
+                    <div class="card-body items-center ">
+                        <h2 class="card-title font-bold text-base">12.90$ - 18.85$</h2>
+                        <hr>
+                        <p class="text-gray-500 my-7">Orange</p>
+                        <div class="rating rating-lg rating-half">
+                            <input type="radio" name="rating-10" class="rating-hidden" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1"
+                                checked />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+                        </div>
+                        <p class="text-red-400 ">Details</p>
+                    </div>
+                </div>
+                <!-- card-03 -->
+                <div class="card w-80 bg-base-100 shadow-md my-8">
+                    <figure><img class="p-1" src="./images/fruit8.png" alt="Shoes" /></figure>
+                    <div class="card-body items-center ">
+                        <h2 class="card-title font-bold text-base">12.90$ - 18.85$</h2>
+                        <hr>
+                        <p class="text-gray-500 my-7">Red Dragon</p>
+                        <div class="rating rating-lg rating-half">
+                            <input type="radio" name="rating-10" class="rating-hidden" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1"
+                                checked />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+                        </div>
+                        <p class="text-red-400 ">Details</p>
+                    </div>
+                </div>
+                <!-- card-04 -->
+                <div class="card w-80 bg-base-100 shadow-md my-8">
+                    <figure><img class="p-1" src="./images/fruit9.png" alt="Shoes" /></figure>
+                    <div class="card-body items-center ">
+                        <h2 class="card-title text-base font-bold text-base">12.90$ - 18.85$</h2>
+                        <hr>
+                        <p class="text-gray-500 my-7">Banana</p>
+                        <div class="rating rating-lg rating-half">
+                            <input type="radio" name="rating-10" class="rating-hidden" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1"
+                                checked />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+                        </div>
+                        <p class="text-red-400 ">Details</p>
+                    </div>
+                </div>
+            </div>
+            <button class="btn bg-red-400 text-white text-sm font-extrabold border-0 w-24 p-2 mb-5">Shop All</button>
+        </section>
+        <!--  meet the team section start here-->
+        <section>
+            <div class="hero bg-team-meet bg-cover">
+                <div class="hero-overlay bg-opacity-30"></div>
+                <div class="hero-content text-center text-neutral-content">
+                    <div class="">
+                        <h1 class="mb-5 pt-24 text-5xl font-extrabold">Meet the team section</h1>
+                        <p class="mb-5 font-medium text-base">Contrary to popular belief, is not simply random text. It
+                            has roots in a piece
+                            of classical <br> Latin literature from 45 BC, making it over 2000 years old.
+                        </p>
+                        <!-- teams images container -->
+                        <div class="md:grid md:grid-cols-2 lg:flex lg:justify-evenly gap-14 mt-14 pb-28">
+                            <!-- first team member -->
+                            <div class="grid justify-items-center">
+                                <img class="rounded-full mb-8	" src="./images/member1.png" alt="">
+                                <h3 class="text-base font-bold text-white">Awlad Hossain</h3>
+                                <p class=" text-xs font-medium mb-4">Fruits Expert</p>
+                                <div>
+                                    <a href=""><i class="text-red-400  fa-brands fa-facebook"></i></a>
+                                    <a href=""><i class=" text-red-400 fa-brands fa-twitter"></i></a>
+                                    <a href=""><i class="text-red-400 fa-brands fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <!-- second team member -->
+                            <div class="grid justify-items-center">
+                                <img class="rounded-full mb-8	" src="./images/member2.png" alt="">
+                                <h3 class="text-base font-bold text-white">Safia Chowdhury</h3>
+                                <p class=" text-xs font-medium mb-4">Fruits Expert</p>
+                                <div>
+                                    <a href=""><i class="text-red-400  fa-brands fa-facebook"></i></a>
+                                    <a href=""><i class=" text-red-400 fa-brands fa-twitter"></i></a>
+                                    <a href=""><i class="text-red-400 fa-brands fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <!-- 3rd team member -->
+                            <div class="grid justify-items-center">
+                                <img class="rounded-full mb-8	" src="./images/member3.png" alt="">
+                                <h3 class="text-base font-bold text-white">Rokib Hossain</h3>
+                                <p class=" text-xs font-medium mb-4">Fruits Expert</p>
+                                <div>
+                                    <a href=""><i class="text-red-400  fa-brands fa-facebook"></i></a>
+                                    <a href=""><i class=" text-red-400 fa-brands fa-twitter"></i></a>
+                                    <a href=""><i class="text-red-400 fa-brands fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <!-- fourth team member -->
+                            <div class="grid justify-items-center">
+                                <img class="rounded-full mb-8	" src="./images/member4.png" alt="">
+                                <h3 class="text-base font-bold text-white">Chaity</h3>
+                                <p class=" text-xs font-medium mb-4">Fruits Expert</p>
+                                <div>
+                                    <a href=""><i class="text-red-400  fa-brands fa-facebook"></i></a>
+                                    <a href=""><i class=" text-red-400 fa-brands fa-twitter"></i></a>
+                                    <a href=""><i class="text-red-400 fa-brands fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
